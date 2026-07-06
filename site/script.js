@@ -86,6 +86,9 @@ const translations = {
     veh3Title: "Van Executiva",
     veh3Desc: "A solução ideal para grupos, turismo e eventos corporativos.",
     veh3Btn: "Solicitar Orçamento",
+    veh4Title: "Blindado Executivo",
+    veh4Desc: "Máxima segurança, conforto e discrição para viagens executivas.",
+    veh4Btn: "Solicitar Orçamento",
 
     // CONTATO
     contactTag: "FALE CONOSCO",
@@ -162,6 +165,9 @@ const translations = {
     veh3Title: "Executive Van",
     veh3Desc: "The perfect solution for groups, tourism and corporate events.",
     veh3Btn: "Request a Quote",
+    veh4Title: "Executive Armored",
+    veh4Desc: "Maximum security, comfort and discretion for executive trips.",
+    veh4Btn: "Request a Quote",
 
     // CONTATO
     contactTag: "CONTACT US",
@@ -238,6 +244,9 @@ const translations = {
     veh3Title: "Van Ejecutiva",
     veh3Desc: "La solución ideal para grupos, turismo y eventos corporativos.",
     veh3Btn: "Solicitar Cotización",
+    veh4Title: "Blindado Ejecutivo",
+    veh4Desc: "Máxima seguridad, conforto y discrição para viagens executivas.",
+    veh4Btn: "Solicitar Cotización",
 
     // CONTATO
     contactTag: "CONTÁCTANOS",
