@@ -335,6 +335,9 @@ function changeLanguage(lang) {
   vehCards[2].querySelector("h3").textContent = t.veh3Title;
   vehCards[2].querySelector("p").textContent = t.veh3Desc;
   vehCards[2].querySelector(".vehicle-btn").textContent = t.veh3Btn;
+  vehCards[3].querySelector("h3").textContent = t.veh4Title;
+  vehCards[3].querySelector("p").textContent = t.veh4Desc;
+  vehCards[3].querySelector(".vehicle-btn").textContent = t.veh4Btn;
 
   // CONTATO
   const contactSection = document.querySelector(".contato");
@@ -348,12 +351,7 @@ function changeLanguage(lang) {
   footer.querySelector("p").textContent = t.footerDesc;
   const footerCols = footer.querySelectorAll(".footer-grid > div");
   footerCols[1].querySelector("h4").textContent = t.footerContactTitle;
-  footerCols[2].querySelector("h4").textContent = t.footerServiceTitle;
-  const footerServicePs = footerCols[2].querySelectorAll("p");
-  footerServicePs[0].textContent = t.footerServiceHours;
-  footerServicePs[1].textContent = t.footerServiceDays;
   footer.querySelector(".footer-bottom").textContent = t.footerRights;
-
   localStorage.setItem("language", lang);
 }
 
