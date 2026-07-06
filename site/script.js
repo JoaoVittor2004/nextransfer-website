@@ -33,7 +33,7 @@ const translations = {
     navServices: "Serviços",
     navVehicles: "Veículos",
     navContact: "Contato",
-    reserveBtn: "Reservar",
+    reserveBtn: "Teste",
 
     // HERO
     heroTag: "TRANSPORTE EXECUTIVO PREMIUM",
