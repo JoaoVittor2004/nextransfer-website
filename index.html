@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NexTransfer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="site/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="icon" type="image/png" href="./assets/favicon.png">
+
+</head>
+
+<body>
+
+
+  <header class="navbar">
+
+    <img src="assets/logo-dark.png" class="logo-dark" alt="NexTransfer">
+    <img src="assets/logo-light.png" class="logo-light" alt="NexTransfer">
+
+    <div class="menu-toggle">
+      ☰
+    </div>
+
+    <nav class="nav-links">
+      <a href="#start" data-i18n="navHome">Início</a>
+      <a href="#services" data-i18n="navServices">Serviços</a>
+      <a href="#vehicles" data-i18n="navVehicles">Veículos</a>
+      <a href="#contact" data-i18n="navContact">Contato</a>
+
+      <div class="mobile-language-switcher">
+        <button data-lang="pt"> <img src="assets/br.svg" alt="Português"> </button>
+        <button data-lang="en"> <img src="assets/us.svg" alt="English"> </button>
+        <button data-lang="es"> <img src="assets/es.svg" alt="Español"> </button>
+      </div>
+    </nav>
+
+    <div class="language-switcher">
+
+      <button data-lang="pt">
+        <img src="assets/br.svg" alt="Português">
+      </button>
+
+      <button data-lang="en">
+        <img src="assets/us.svg" alt="English">
+      </button>
+
+      <button data-lang="es">
+        <img src="assets/es.svg" alt="Español">
+      </button>
+
+    </div>
+
+    <button id="theme-toggle">
+      🌙
+    </button>
+
+    <a href="#contact" class="reserve-btn">
+      Reservar
+    </a>
+
+  </header>
+
+
+  <section id="start" class="hero">
+
+    <div class="hero-content" data-i18n="heroDescription">
+
+      <span class="tag">
+
+        TRANSPORTE EXECUTIVO PREMIUM
+
+      </span>
+
+      <h1 id="heroTitle">
+        Sua jornada começa antes do destino.
+      </h1>
+
+      <p>
+
+        Transporte executivo e turismo com conforto,
+        pontualidade e discrição para quem exige excelência.
+
+      </p>
+
+      <div class="buttons">
+
+        <a id="reserveBtn" class="primary" href="#contact">
+          Reservar Agora
+        </a>
+
+        <a id="servicesBtn" href="#services" class="secondary">
+          Conhecer Serviços
+        </a>
+
+      </div>
+
+      <!--       <div class="stats">
+
+        <div>
+          <h3>24h</h3>
+          <span>Atendimento</span>
+        </div>
+
+        <div>
+          <h3>100%</h3>
+          <span>Pontualidade</span>
+        </div>
+
+        <div>
+          <h3>Premium</h3>
+          <span>Experiência</span>
+        </div>
+
+      </div> -->
+
+    </div>
+
+  </section>
+
+  <section class="diferenciais">
+
+    <div class="section-title">
+
+      <span>NOSSOS DIFERENCIAIS</span>
+
+      <h2>
+        Excelência em cada detalhe.
+      </h2>
+
+      <p>
+        Transporte executivo e turismo com foco em
+        conforto, segurança e pontualidade.
+      </p>
+
+    </div>
+
+    <div class="diferenciais-grid">
+
+      <div class="diferencial-card">
+
+        <div class="icon">⏱</div>
+
+        <h3>Pontualidade</h3>
+
+        <p>
+          Seu compromisso começa no horário certo.
+          Planejamento e eficiência em cada trajeto.
+        </p>
+
+      </div>
+
+      <div class="diferencial-card">
+
+        <div class="icon">🛡</div>
+
+        <h3>Segurança</h3>
+
+        <p>
+          Motoristas experientes e viagens realizadas
+          com total tranquilidade e confiança.
+        </p>
+
+      </div>
+
+      <div class="diferencial-card">
+
+        <div class="icon">✦</div>
+
+        <h3>Conforto Premium</h3>
+
+        <p>
+          Veículos executivos preparados para oferecer
+          uma experiência superior do início ao fim.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="services" class="servicos">
+
+    <div class="servicos-image">
+
+      <img src="./assets/services.jpg" alt="Nextransfer">
+
+    </div>
+
+    <div class="servicos-content">
+
+      <span>NOSSOS SERVIÇOS</span>
+
+      <h2>
+        Soluções de mobilidade para cada ocasião.
+      </h2>
+
+      <div class="service-item">
+
+        <h3>Transfer Aeroporto</h3>
+
+        <p>
+          Traslados com conforto e pontualidade para aeroportos,
+          hotéis e destinos corporativos.
+        </p>
+
+      </div>
+
+      <div class="service-item">
+
+        <h3>Executivo Corporativo</h3>
+
+        <p>
+          Atendimento profissional para reuniões, eventos
+          empresariais e compromissos executivos.
+        </p>
+
+      </div>
+
+      <div class="service-item">
+
+        <h3>Turismo Premium</h3>
+
+        <p>
+          Experiências exclusivas com conforto e praticidade
+          para conhecer novos destinos.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="vehicles" class="veiculos">
+
+    <div class="section-title">
+
+      <span>NOSSOS VEÍCULOS</span>
+
+      <h2>
+        Conforto e sofisticação para cada trajeto.
+      </h2>
+
+      <p>
+        Veículos selecionados para oferecer segurança,
+        elegância e uma experiência premium.
+      </p>
+
+    </div>
+
+    <div class="veiculos-grid">
+
+      <div class="veiculo-card">
+
+        <div class="veiculo-img">
+          <img src="./assets/sedan.png" alt="Sedan Executivo">
+        </div>
+
+        <div class="veiculo-info">
+
+          <h3>Sedan Executivo</h3>
+
+          <p>
+            Ideal para executivos, aeroportos e compromissos importantes.
+          </p>
+
+          <a href="https://wa.me/5521999999999?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20o%20Sedan%20Premium." target="_blank" class="vehicle-btn">
+            Solicitar Orçamento
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="veiculo-card">
+
+        <div class="veiculo-img">
+          <img src="./assets/suv.png" alt="SUV Executivo">
+        </div>
+
+        <div class="veiculo-info">
+
+          <h3>SUV Executivo</h3>
+
+          <p>
+            Mais espaço, Ideal pra grupos e familiares, conforto e presença para viagens especiais.
+          </p>
+
+          <a href="https://wa.me/5521999999999?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20o%20SUV%20Executivo." target="_blank" class="vehicle-btn">
+            Solicitar Orçamento
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="veiculo-card">
+
+        <div class="veiculo-img">
+          <img src="./assets/van.png" alt="Van Executiva">
+        </div>
+
+        <div class="veiculo-info">
+
+          <h3>Van Executiva</h3>
+
+          <p>
+            A solução ideal para grupos, turismo e eventos corporativos.
+          </p>
+
+          <a href="https://wa.me/5521999999999?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20a%20Van%20Executiva." target="_blank" class="vehicle-btn">
+            Solicitar Orçamento
+          </a>
+
+        </div>
+      </div>
+
+      <div class="veiculo-card">
+
+        <div class="veiculo-img">
+          <img src="./assets/blindado.png" alt="Blindado Executivo">
+        </div>
+
+        <div class="veiculo-info">
+
+          <h3>Blindado Executivo</h3>
+
+          <p>
+            Conforto, Descrição, Segurança.
+          </p>
+
+          <a href="https://wa.me/5521999999999?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20o%20Blindado%20Executivo." target="_blank" class="vehicle-btn">
+            Solicitar Orçamento
+          </a>
+
+        </div>
+
+      </div>
+
+  </section>
+
+  <section id="contact" class="contato">
+
+    <div class="contato-content">
+
+      <span>FALE CONOSCO</span>
+
+      <h2>
+        Pronto para sua próxima viagem?
+      </h2>
+
+      <p>
+        Entre em contato e solicite um orçamento personalizado.
+        Nossa equipe está pronta para atender você.
+      </p>
+
+      <div class="contato-buttons">
+
+        <a href="https://wa.me/NUMERO?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento%20para%20transporte%20executivo." target="_blank" class="whatsapp-btn">
+
+          Solicitar Orçamento
+
+        </a>
+
+        <a href="https://wa.me/NUMERO?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento%20para%20transporte%20executivo." target="_blank" class="whatsapp-float">
+
+          <i class="fab fa-whatsapp"></i>
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer class="footer">
+
+    <div class="footer-grid">
+
+      <div>
+
+        <h3>Nextransfer</h3>
+
+        <p>
+          Transporte Executivo e Turismo.
+        </p>
+
+      </div>
+
+      <div>
+
+        <h4>Contato</h4>
+
+        <p>(21) 99999-9999</p>
+
+        <p>contato@nextransfer.com.br</p>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      © 2026 Nextransfer • Todos os direitos reservados.
+
+    </div>
+
+  </footer>
+
+  <script src="site/script.js"></script>
+
+</body>
+
+</html>
